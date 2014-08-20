@@ -1,0 +1,12 @@
+Source: ros-hydro-nao-sensors
+Section: misc
+Priority: extra
+Maintainer: Séverin Lemaignan <severin.lemaignan@epfl.ch>
+Build-Depends: debhelper (>= 9.0.0), libboost-all-dev, ros-hydro-camera-info-manager, ros-hydro-catkin, ros-hydro-diagnostic-updater, ros-hydro-driver-base, ros-hydro-dynamic-reconfigure, ros-hydro-image-transport, ros-hydro-nodelet, ros-hydro-octomap, ros-hydro-octomap-msgs, ros-hydro-roscpp, ros-hydro-sensor-msgs, ros-hydro-tf
+Homepage: http://ros.org/nao
+Standards-Version: 3.9.2
+
+Package: ros-hydro-nao-sensors
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libboost-all-dev, ros-hydro-camera-info-manager, ros-hydro-camera-info-manager-py, ros-hydro-diagnostic-updater, ros-hydro-dynamic-reconfigure, ros-hydro-image-transport, ros-hydro-nao-driver, ros-hydro-nodelet, ros-hydro-octomap, ros-hydro-roscpp, ros-hydro-rospy, ros-hydro-sensor-msgs, ros-hydro-tf
+Description: ROS driver for miscellaneous sensors on NAO. Python bindings for camera, sonar and octomap C++: bindings for camera only (requires NAOqi to build)
