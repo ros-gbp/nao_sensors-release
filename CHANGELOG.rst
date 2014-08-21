@@ -2,6 +2,11 @@
 Changelog for package nao_sensors
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.1.3 (2014-08-21)
+------------------
+* install the sensor scripts in the local bin
+* Contributors: Vincent Rabaud
+
 0.1.2 (2014-08-21)
 ------------------
 * fix a compile bug on Groovy
